@@ -39,8 +39,9 @@
 .do img{
     margin-top: 20px;
 }
-.do h2{
-    margin-top: 50px;
+h5{
+    font-weight: bold;
+    margin-top: 20px;
 }
 .design{
     display: none;
@@ -52,7 +53,10 @@
     display: none;
 }
 .myportfolio img{
-    margin-top: 30px;
+    margin-top: 20px;
+    height: 250PX;
+    width: 250PX;
+    
 }
 .contact{
     height: 100vh;
@@ -77,9 +81,11 @@
 }
 .input::-webkit-input-placeholder{
     color: white;
+    padding-left: 10px;
 }
 textarea::-webkit-input-placeholder{
     color: white;
+    padding-left: 10px;
 }
 .message{
     background: transparent;

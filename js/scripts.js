@@ -1,25 +1,13 @@
 $(document).ready(function(){
-  $(".image1").click(function(){
+  $(".toggle1").click(function(){
     $(".image1").toggle();
     $(".design").toggle();
   });
-  $(".design").click(function(){
-    $(".image1").toggle();
-    $(".design").toggle();
-  });
-  $(".image2").click(function(){
+  $(".toggle2").click(function(){
     $(".image2").toggle();
     $(".development").toggle();
   });
-  $(".development").click(function(){
-    $(".image2").toggle();
-    $(".development").toggle();
-  });
-  $(".image3").click(function(){
-    $(".image3").toggle();
-    $(".product_mgmt").toggle();
-  });
-  $(".product_mgmt").click(function(){
+  $(".toggle3").click(function(){
     $(".image3").toggle();
     $(".product_mgmt").toggle();
   });
