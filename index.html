@@ -96,49 +96,50 @@
             </div>
             <h3>PORTFOLIO</h3>
             <div class=" row myportfolio">
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
+
                     <img class="" src="images/portfolio/work1.jpg" alt="">
                     <div class="project">
                         <p>Project 1</p>
                     </div>
                 </div>
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
                     <img class="" src="images/portfolio/work2.jpg" alt="">
                     <div class="project">
                         <p>Project 2</p>
                     </div>
                 </div>
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
                     <img class="" src="images/portfolio/work3.jpg" alt="">
                     <div class="project">
                         <p>Project 3</p>
                     </div>
                 </div>
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
                     <img class="" src="images/portfolio/work4.jpg" alt="">
                     <div class="project">
                         <p>Project 4</p>
                     </div>
                 </div>
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
                     <img class="" src="images/portfolio/work5.jpg" alt="">
                     <div class="project">
                         <p>Project 5</p>
                     </div>
                 </div>
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
                     <img class="" src="images/portfolio/work6.jpg" alt="">
                     <div class="project">
                         <p>Project 6</p>
                     </div>
                 </div>
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
                     <img class="" src="images/portfolio/work7.jpg" alt="">
                     <div class="project">
                         <p>Project 7</p>
                     </div>
                 </div>
-                <div class="col-md-3 project1">
+                <div class="col-md-3 myprojects">
                     <img class="" src="images/portfolio/work8.jpg" alt="">
                     <div class="project">
                         <p>Project 8</p>
@@ -150,9 +151,11 @@
             <div class="mycontact">
                 <h3>CONTACT US</h3>
                 <form action="">
-                    <input class="input" type="text" placeholder="Name...">
-                    <input class="input" type="text" placeholder="Email...">
-                    <textarea class="message" id="" cols="" rows="7" placeholder="Your message here...."></textarea>
+                    <input id="name" class="input" type="text" placeholder="Name..." autocomplete="off">
+                    <input id="email" class="input" type="text" placeholder="Email...">
+                    <textarea id="message" class="message" id="" cols="" rows="7" placeholder="Your message here...."></textarea><br>
+                    <button type="submit" class="button">Send</button>
+                    <div id="error"></div>
                 </form>
             </div>
             <div class="social">
