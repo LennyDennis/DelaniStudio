@@ -14,12 +14,12 @@ $(document).ready(function(){
   });
 
   //display white box on hover
-  // $(".project").hover(function(){
-  //   $(this).animate({opacity:'1'});
-  // },
-  // function(){
-  //   $(this).animate({opacity:'0'});
-  // });
+  $(".project").hover(function(){
+    $(this).animate({opacity:'1'});
+  },
+  function(){
+    $(this).animate({opacity:'0'});
+  });
 
   $(".button").click(function(event){
     event.preventDefault();
@@ -48,6 +48,5 @@ $(document).ready(function(){
       this.reset();
     });
   });
-
 });
 
