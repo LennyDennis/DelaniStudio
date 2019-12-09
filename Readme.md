@@ -10,28 +10,28 @@ outputs their Akan Name
 - CSS
 - JavaScript
 - Bootstrap
+-Jquery
 
 ##### Requirements
 
-JavaScript Console
 Web Browser
 
 ##### Setup Instructions and Installation
 
--  Open terminal and make a folder NameGenerator. `mkdir NameGenerator`
-- Clone this repository to a location in the folder. `https://github.com/LennyDennis/AkanNames.git`
+-  Open terminal and make a folder Delani Studio. `mkdir DelaniStudio`
+- Clone this repository to a location in the folder. `hhttps://github.com/LennyDennis/DelaniStudio.git`
 - Open `index.html` on your Browser.
 
 
 ## Behaviour Driven Development
 
-1. Displays a form For entering Date of Birth and Gender
+1. Displays the homepage to Delani Studio
   
-2. Displays an Error Message if Date if date of birth field is empty
+2. On click, it toggles between the image and paragraph of what we do
 
-3. Displays an Error Message if Gender Not Chosen
+3. On hover it display the project name at the porfolio
 
-4. Clears form and resets the page on Click
+4. A user is able to contact Delani Studio via email andmessage
 
 ## Development
 
@@ -54,7 +54,7 @@ No known bugs however if you find any bug kindly reach out.
 
 
 
-##### Link to Live Site : https://lennydennis.github.io/AkanNames/
+##### Link to Live Site : https://lennydennis.github.io/DelaniStudio/
 
 ### License
 
