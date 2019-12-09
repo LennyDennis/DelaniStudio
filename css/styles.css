@@ -63,9 +63,6 @@ h5{
     margin: 15px;
     background-size: cover;
 }
-.custom-background::hover{
-
-}
 .project1{
     background: url(../images/portfolio/work1.jpg) ;
     
