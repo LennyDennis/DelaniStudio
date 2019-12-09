@@ -12,13 +12,13 @@
     font-family: 'Righteous', cursive;
 }
 .msg{
-    padding-top: 180px;
+    padding-top: 160px;
 }
 .msg h2{
     padding: 10px;
 }
 .mouse{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 .about{
     height: 50vh;
@@ -57,61 +57,39 @@ h5{
 .myportfolio{
     margin-left: 80px;
 }
-.project1{
+.custom-background {
     max-width: 230px;
     height: 230px;
     margin: 15px;
-    background: url(../images/portfolio/work1.jpg) ;
     background-size: cover;
+}
+.custom-background::hover{
+
+}
+.project1{
+    background: url(../images/portfolio/work1.jpg) ;
+    
 }
 .project2{
-    max-width: 230px;
-    height: 230px;
-    margin: 15px;
     background: url(../images/portfolio/work2.jpg) ;
-    background-size: cover;
 }
 .project3{
-    max-width: 230px;
-    height: 230px;
-    margin: 15px;
     background: url(../images/portfolio/work3.jpg) ;
-    background-size: cover;
 }
 .project4{
-    max-width: 230px;
-    height: 230px;
-    margin: 15px;
     background: url(../images/portfolio/work4.jpg) ;
-    background-size: cover;
 }
 .project5{
-    max-width: 230px;
-    height: 230px;
-    margin: 15px;
     background: url(../images/portfolio/work5.jpg) ;
-    background-size: cover;
 }
 .project6{
-    max-width: 230px;
-    height: 230px;
-    margin: 15px;
     background: url(../images/portfolio/work6.jpg) ;
-    background-size: cover;
 }
 .project7{
-    max-width: 230px;
-    height: 230px;
-    margin: 15px;
     background: url(../images/portfolio/work7.jpg) ;
-    background-size: cover;
 }
 .project8{
-    max-width: 230px;
-    height: 230px;
-    margin: 15px;
     background: url(../images/portfolio/work8.jpg) ;
-    background-size: cover;
 }
 .project{
     background-color: rgba(255, 255, 255, 0.815);
@@ -164,6 +142,15 @@ textarea::-webkit-input-placeholder{
     border-radius: 10px;
     }
 .button:hover{
+    opacity: 0.7;
+}
+.refresh{
+    padding: 2px 8spx;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    }
+.refresh:hover{
     opacity: 0.7;
 }
 #error{

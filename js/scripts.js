@@ -22,9 +22,10 @@ $(document).ready(function(){
   });
 
   $(".button").click(function(event){    
-    var name = document.getElementById('name').value;
-    var email = document.getElementById('email').value;
-    var message = document.getElementById('message').value;
+    
+    var name = document.getElementById('mce-NAME').value;
+    var email = document.getElementById('mce-EMAIL').value;
+    var message = document.getElementById('mce-MESSAGE').value;
     if(name == ""){
       alert("Please fill the name field");
       name.focus();
@@ -42,7 +43,7 @@ $(document).ready(function(){
     }
     alert(name +", we have received your message. Thank you for contacting us.");
   });
-  $("button").click(function(event){
+  $(".refresh").click(function(event){
     $('form').each(function(){
       this.reset();
     });
