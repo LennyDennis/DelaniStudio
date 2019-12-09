@@ -21,8 +21,7 @@ $(document).ready(function(){
     $(this).animate({opacity:'0'});
   });
 
-  $(".button").click(function(event){
-    event.preventDefault();
+  $(".button").click(function(event){    
     var name = document.getElementById('name').value;
     var email = document.getElementById('email').value;
     var message = document.getElementById('message').value;
@@ -49,4 +48,5 @@ $(document).ready(function(){
     });
   });
 });
+
 
