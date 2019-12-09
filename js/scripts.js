@@ -18,7 +18,7 @@ $(document).ready(function(){
     $(this).animate({opacity:'1'});
   },
   function(){
-    $(this).animate({opacity:'0'});
+    $(this).animate({opacity:'1'});
   });
 
   $(".button").click(function(event){    
